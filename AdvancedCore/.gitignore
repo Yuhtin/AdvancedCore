@@ -1,7 +1,10 @@
-/bin/
-/target/
-/.idea/
-/*.iml
-/.settings/
-/.classpath
-/.apt_generated/
+.idea/
+artifacts/
+.gradle/
+*.lock
+*.class
+*.bin
+*build*
+gradle/wrapper/gradle-wrapper.jar
+!build.gradle
+!*.java
